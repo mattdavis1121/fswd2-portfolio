@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+}
+
+.name {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+}
+
+.name div {
+    vertical-align: bottom;
+}
+
+.name * {
+    margin: 0;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+.description {
+    text-align: center;
+}
+
+.feature {
+    padding: 10px;
+}
