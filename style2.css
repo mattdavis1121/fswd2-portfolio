@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.banner {
+    height: 90%;
+    background-color: lightgray;
+    margin-bottom: 2%;
+}
+
+.container {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto 0;
+}
+
+#card {
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#name {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#name h1 {
+    text-transform: uppercase;
+    font-size: 84px;
+    margin-bottom: 0;
+}
+
+#name h2 {
+    text-transform: lowercase;
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.img-placeholder {
+    height: 300px;
+    width: 100%;
+    background-color: #424242;
+}
+
+.project {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-image {
+    padding: 0 2% 0;
+}
+
+.project-text {
+    padding: 0 2% 0;
+}
+
+.project-title {
+    font-size: 36px;
+}
+
+.project-description {
+    font-size: 24px;
+}
+
+.code-embed {
+    padding: 0 2% 0;
+}
+
+/*
+    Keeping this for later. Allows
+    for styling embedded gists. Makes
+    code scrollable
+ */
+.gist-data {max-height: 200px;}
