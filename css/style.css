@@ -69,6 +69,14 @@ html, body {
     margin-bottom: 10px;
 }
 
+/*
+    Flip order of project-image and project-text
+    every other project
+ */
+.project:nth-child(even) > .project-text{
+    order: -1;
+}
+
 .project-image {
     padding: 0 2% 0;
 }
