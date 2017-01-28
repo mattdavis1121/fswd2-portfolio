@@ -1,3 +1,16 @@
+/*
+    Declare color variables so I don't
+    have to change them in a bunch of
+    different spots. Is this allowed?
+ */
+:root {
+    --primary-color: #021931;
+    --accent-color: #B96F00;
+    --dark-gray: #2e353c;
+    --light-gray: #afb6bd;
+}
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -6,8 +19,9 @@ html, body {
 
 .banner {
     height: 90%;
-    background-color: lightgray;
+    background-color: var(--primary-color);;
     margin-bottom: 2%;
+    color: var(--light-gray);
 }
 
 .container {
@@ -34,18 +48,21 @@ html, body {
     text-transform: uppercase;
     font-size: 84px;
     margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #name h2 {
     text-transform: lowercase;
     font-size: 48px;
     margin-top: 0;
+    color: var(--accent-color);
+    font-family: 'Domine', serif;
 }
 
 .img-placeholder {
     height: 300px;
     width: 100%;
-    background-color: #424242;
+    background-color: var(--primary-color);
 }
 
 .project {
@@ -59,14 +76,18 @@ html, body {
 
 .project-text {
     padding: 0 2% 0;
+    color: var(--dark-gray);
 }
 
 .project-title {
     font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .project-description {
-    font-size: 24px;
+    font-size: 18px;
+    font-family: 'Domine', serif;
+    line-height: 24px;
 }
 
 .code-embed {
