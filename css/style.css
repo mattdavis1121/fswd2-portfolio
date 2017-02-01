@@ -30,7 +30,8 @@ html, body {
     margin: 0 auto 0;
 }
 
-.banner>.container {
+
+.banner > .container {
     height: 100%;
     display: flex;
     align-items: center;
@@ -128,6 +129,7 @@ img {
     height: auto;
 }
 
+
 .headshot > img {
   width: 80%;
 }
@@ -141,6 +143,10 @@ img {
   max-width: 800px;
 }*/
 
+
+.full-width {
+    background-color: var(--light-gray);
+}
 
 /*
     Keeping this for later. Allows
